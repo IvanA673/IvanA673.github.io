@@ -1,6 +1,8 @@
 :root {
   /* variables */
-  --cg-black: rgb(29, 34, 34);
+  /*--cg-black: rgb(29, 34, 34);*/
+  /* --cg-lightblue: #b2ccd4; */
+  --cg-beige: #bc986a;
   --cg-blue: rgb(36, 94, 255);
   --cg-grey: rgb(243, 243, 243);
   --cg-white: rgb(255, 255, 255);
@@ -34,7 +36,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: var(--cg-black);
+  background-color: var(--cg-beige);
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -107,6 +109,10 @@ main {
   /* border: 2px solid blue; */
 }
 
+.hikes{
+  display: flex;
+}
+
 .item-link {
   width: 70%;
 
@@ -145,7 +151,7 @@ main {
 }
 
 .project-details a {
-  color: var(--cg-black);
+  color: var(--cg-beige);
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
@@ -202,7 +208,7 @@ main {
 /* CSS for resume page */
 
 .button {
-  background-color: var(--cg-black);
+  background-color: var(--cg-beige);
   border: none;
   color: var(--cg-white);
 
@@ -255,7 +261,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--cg-black);
+  background-color: var(--cg-beige);
   color: var(--cg-white);
   position: absolute;
   bottom: 0;
